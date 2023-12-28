@@ -2,13 +2,13 @@
 import React from 'react';
 
 // Importing Components
-import Header from '../components/Header';
+import Clock from '../components/Clock';
 
 // Home Component
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Clock />
     </div>
   );
 }

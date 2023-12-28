@@ -1,0 +1,53 @@
+.container {
+  width: 484px;
+  height: 484px;
+  position: relative;
+}
+
+.borderBold {
+  height: 344px;
+  width: 344px;
+  border-radius: 50%;
+  border: 5px dashed black;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  transform: translate(-49%, -49%);
+}
+
+.hour,
+.minute,
+.second {
+  position: absolute;
+}
+
+.hour,
+.minute {
+  transform-origin: bottom;
+}
+
+.second {
+  transform-origin: top;
+}
+
+.hour {
+  top: 30.5%;
+  left: 29%;
+}
+
+.minute {
+  top: 22.5%;
+  left: 47%;
+}
+
+.second {
+  top: 48.5%;
+  left: 49%;
+}
+
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
